@@ -25,6 +25,7 @@ struct Index {
           .borderRadius(10)
         Text('邓恩熙')
           .fontSize(18)
+          .fontColor('#a1a1a1')
           .margin(10)
       }
       .height(40)
