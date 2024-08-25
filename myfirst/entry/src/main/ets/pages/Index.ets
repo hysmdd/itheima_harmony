@@ -18,6 +18,32 @@ console.log('是否登录成功', isLogin)
 age = 19
 console.log('更改后的年龄', age)
 
+// 常量
+const companyName: string = '华为'
+console.log('公司名称: ', companyName)
+const PI: number = 3.1415926
+console.log('PI: ', PI)
+
+// 命名规则
+// ① 只能包含数字、字母、下划线、$，不能以数字开头
+// let num-1: number = 27  // 错误，特殊字符
+// let num_1: number = 27  // 正确
+// let num$: number = 27  // 正确
+// let num^: number = 27  // 错误 特殊字符
+
+// let num1: number = 19  // 正确
+// let 1num: Number = 19  // 错误 以数字开头
+
+// ② 不能使用内置关键字或保留字
+// let let: string = 'Martis'
+// let const:string = 'Martis'
+
+// ③ 严格区分大小写
+// let myName: string = '白敬亭'
+// let MyName: string = '杨洋'
+// console.log('myName', myName)
+// console.log('MyName', MyName)
+
 @Entry
 @Component
 struct Index {
