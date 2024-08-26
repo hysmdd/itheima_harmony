@@ -16,7 +16,6 @@ struct Index {
               top: 10
             })
         }
-        .width('60%')
         .alignItems(HorizontalAlign.Start)
 
         Image('https://sns-avatar-qc.xhscdn.com/avatar/61cedc079b65e05ce4e2070a.jpg')
@@ -24,8 +23,7 @@ struct Index {
           .height(60)
           .borderRadius(8)
           .margin({
-            right: 15,
-            left: 20
+            left: 40
           })
 
         Image($r('app.media.ic_public_arrow_right'))
